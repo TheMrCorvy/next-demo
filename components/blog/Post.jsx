@@ -15,8 +15,6 @@ const Post = ({ post }) => {
 			}
 		})
 
-		console.log(radius)
-
 		return radius
 	}
 
