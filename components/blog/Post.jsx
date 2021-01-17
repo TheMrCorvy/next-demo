@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React from "react"
 import Link from "next/link"
 
 const Post = ({ post }) => {
@@ -17,10 +17,6 @@ const Post = ({ post }) => {
 
 		return radius
 	}
-
-	useEffect(() => {
-		randomize()
-	}, [])
 
 	return (
 		<article
