@@ -9,7 +9,7 @@ const Post = ({ post }) => {
 
 		times.map((time) => {
 			if (time === 4) {
-				radius += Math.floor(Math.random() * (50 - 15 + 15) + 15) + "% /"
+				radius += " " + Math.floor(Math.random() * (50 - 15 + 15) + 15) + "% /"
 			} else {
 				radius += " " + Math.floor(Math.random() * (50 - 15 + 15) + 15) + "%"
 			}
